@@ -1,0 +1,355 @@
+/*common start*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+/*common end*/
+
+/*header start*/
+header{
+	background-color: #303030;
+	padding: 10px 0;
+}
+.c_nav{}
+.logo{}
+.c_toogler{
+	color: #fff !important;
+}
+
+.menu{}
+.menu ul li{
+	padding: 0 20px;
+}
+.menu ul li a{
+	font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff !important;
+    transition: .3s;
+}
+.menu ul li a:hover{
+	color: #e8631c !important;
+}
+.material-symbols-outlined{
+	transition: .3s;
+}
+.material-symbols-outlined:hover{
+	color: #e8631c !important;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_text{
+	padding: 250px 0 90px 0;
+}
+.b_text h1{
+	font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+.b_text p{
+	font-size: 22px;
+}
+.b_text .c_btn{
+	font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #e8631c;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 50px;
+}
+.b_text .c_btn:hover{
+	border: 1px solid #e8631c;
+    background-color: transparent;
+}
+/*banner end*/
+
+/*tour start*/
+.tour{
+	background-color: #e8631c;
+	padding: 100px 0;
+}
+.t_title{}
+.t_h1{
+	font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.t_p{
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+
+}
+.single{
+	
+
+}
+.s_img{}
+.s_img img{}
+.s_text{
+	background-color: #303030;
+	padding: 20px;
+
+}
+.s_text h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.s_text p{}
+
+
+/*tour end*/
+/*price start*/
+.pricing{
+	background-color: #303030;
+	padding: 100px 0;
+}
+.s_price{
+	background-color: #e8631c;
+	padding: 40px 0 20px 0;
+	border: 1px solid #e8631c;
+    border-radius: 5px;
+
+}
+.p_img{}
+.p_img img{}
+.p_text{}
+.p_text h4{
+	font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+}
+.p_text p{
+	font-size: 18px;
+
+}
+.p_btn{
+	font-size: 20px;
+    background-color: #303030;
+    color: #fff;
+    width: 95%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .3s;
+}
+.p_btn:hover{
+	background-color: #00000080;
+}
+/*price end*/
+
+/*dance start*/
+.dance{}
+.d_img{}
+.d_img img{
+    margin-left: -12px;
+
+}
+.d_text{
+	background-color: #e8631c;
+    padding: 350px 40px 260px 40px !important;
+    margin: 0 -12px 0 -36px;
+
+
+}
+.d_text h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.d_text p{
+	font-size: 24px;
+    padding: 20px 0;
+}
+.d_btn{
+	font-size: 20px;
+    background-color: #303030;
+    color: #fff;
+    width: 45%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+.d_btn:hover{
+	background-color: #00000080;
+}
+.d_text1{
+	background-color: #e8631c;
+    margin-left: -12px;
+    padding: 350px 40px 325px 40px;
+}
+.d_text1 h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.d_text1 p{
+	font-size: 24px;
+    padding: 20px 0;
+}
+.d_img1{
+    margin-left: -37px;
+    margin-right: -12px;
+}
+.d_img1 img{}
+/*dance end*/
+
+/*statistic start*/
+.statistic{
+	background-color: #303030;
+	padding: 100px 0 !important;
+}
+.s_count{
+	margin-top: 30px;
+
+}
+.s_count h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+   }
+.s_count h5{
+	font-size: 22px;
+
+}
+
+/*statistic end*/
+/*testimonial start*/
+.testimonial{
+	padding: 100px 0;
+	background-image: url(../images/fb.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.t_slider{
+	padding: 100px;
+    margin-top: 50px;
+}
+.t_slider p{
+    font-size: 25px;
+    padding: 50px 50px 0 50px;
+  }
+.t_slider span{
+	font-size: 25px;
+
+}
+/*testimonial end*/
+/*subscribe start*/
+.subscribe{
+	background-color: #e8631c;
+	padding: 100px 0;
+
+}
+.s_input{
+	width: 70%;
+	position: relative;
+}
+.s_btn{
+	font-size: 20px;
+	background-color: #303030;
+	color: #fff;
+	width: 12%;
+	border: 0;
+	border-radius: 5px;
+	padding: 4px;
+	transition: .3s;
+	text-transform: uppercase;
+	position: absolute;
+	right: 363px;
+	top: 1366%;
+}
+.s_btn:hover{
+	background-color: #00000080;
+}
+.content {
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2; 
+}
+
+.content .form-control {
+	height: 50px;
+	border-color: #ffffff;
+	border-radius:0;
+}
+.content.form-control:focus {
+	box-shadow: none;
+	border: 2px solid #243c4f;
+}
+.content .btn {
+	min-height: 50px;
+	text-transform: uppercase; 
+	border-radius:0;
+	background-color: #303030;
+	color: #fff;
+	font-weight:600;
+}
+.content .btn:hover{
+	background-color: #00000080;
+}
+/*subscribe end*/
+/*footer start*/
+footer{
+	background-color: #303030;
+	padding: 50px 0;
+}
+.f_left{}
+.f_content{}
+.f_logo{	
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+.f_content p{
+	margin: 30px 0;
+}
+.f_icon{}
+.f_icon ul li a i{
+	font-size: 30px;
+    color: #303030;
+    padding: 10px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .3s;
+}
+.f_icon ul li a i:hover{
+	background-color: #e8631c;
+	color: #fff;
+}
+.f_right{
+	margin-left: 55px;
+
+}
+.f_list{
+	margin-top: 27px;
+
+}
+.f_list ul li a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+/*footer end*/

@@ -1,0 +1,210 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+	.menu ul li {
+	    padding: 0;
+	    margin: 10px 0;
+	}
+/*banner start*/
+	.b_text {
+	    text-align: center;
+	    padding: 100px 0 50px 0;
+	}
+/*tour start*/
+	.tour {
+	    padding: 40px 0;
+	}
+	.t_h1 {
+	    font-size: 40px;
+	}
+	.t_p {
+	    font-size: 16px;
+	}
+	.s_text {
+	    margin: 0 0 20px 0;
+	}
+/*price start*/
+	.pricing {
+	    padding: 40px 0;
+	}
+	.s_price {
+	    margin-bottom: 15px;
+	}
+/*dance start*/
+	.d_img img {
+		width: 100%;
+		margin-left: 0;
+	}
+	.d_text {
+	    padding: 70px 40px 57px 65px;
+	}
+	.d_text h1 {
+	    font-size: 35px;
+	}
+	.d_text p {
+	    font-size: 18px;
+	}
+	.d_btn {
+	    font-size: 16px;
+	    width: 100%;
+	}
+/*statistic start*/
+	.statistic {
+    	padding: 0 0 60px 0;
+}
+/*testimonial start*/
+	.t_slider p {
+	     font-size: 16px; 
+	     padding: 0; 
+	}
+	.t_slider span {
+	    font-size: 18px;
+	}
+/*subscribe start*/
+	.subscribe {
+	    padding: 60px 0;
+	}
+/*footer start*/
+	.f_right {
+	    margin-left: 0;
+	    margin-top: 50px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+	.menu ul li {
+	    padding: 0;
+	    margin: 10px 0;
+	}
+/*tour start*/
+	.tour {
+	    padding: 60px 0;
+	}
+	.t_p {
+	    font-size: 17px;
+	}
+	.s_img img {
+	    display: block;
+	    margin: auto;
+	}
+	.s_text {
+	    margin: 0 72px 20px 72px;
+	}
+/*price start*/
+	.pricing {
+	    padding: 60px 0;
+	}
+	.s_price {
+	    margin-bottom: 15px;
+	}
+/*dance start*/
+	.d_img img {
+		width: 100%;
+		margin-left: 0;
+	}
+	.d_text {
+	    padding: 70px 40px 57px 80px;
+	}
+/*statistic start*/
+	.statistic {
+    	padding: 0 0 80px 0;
+}
+/*testimonial start*/
+	.t_slider p {
+    	font-size: 20px;
+}
+/*footer start*/
+	.f_right {
+	    margin-left: 0;
+	    margin-top: 50px;
+	}
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+	.menu ul li {
+	    padding: 0;
+	    margin: 10px 0;
+	}
+/*tour start*/
+	.tour {
+	    padding: 80px 0;
+	}
+	.s_img img {
+	    display: block;
+	    margin: auto;
+	}
+	.s_text {
+	    margin: 0 160px 20px 160px;
+	}
+/*price start*/
+	.pricing {
+	    padding: 80px 0;
+	}
+	.s_price {
+	    margin-bottom: 15px;
+	}
+/*dance start*/
+	.d_img img {
+		width: 100%;
+		margin-left: 0;
+	}
+	.d_text {
+	    padding: 70px 40px 57px 80px;
+	}
+/*statistic start*/
+	.statistic {
+    	padding: 0 0 80px 0;
+}
+/*testimonial start*/
+	.t_slider p {
+	    font-size: 20px;
+	}
+/*footer start*/
+	.f_right {
+	    margin-left: 0;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*dance start*/
+	.d_text {
+	    padding: 168px 40px 183px 40px;
+	}
+/*statistic start*/
+	.statistic {
+    	padding: 0 0 80px 0;
+}
+/*subscribe start*/
+	.f_list ul li a {
+	    font-size: 16px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*dance start*/
+	.d_text {
+	    padding: 350px 40px 157px 40px;
+	}
+/*statistic start*/
+	.statistic {
+    	padding: 0 0 80px 0;
+	}
+}
+
+/*Extra extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*tour start*/
+	.s_text {
+	    margin-right: 44px;
+	}
+/*dance start*/
+	.d_text {
+	    padding: 350px 40px 358px 40px;
+	}
+}
